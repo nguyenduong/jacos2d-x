@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Classes\extlib">
+      <UniqueIdentifier>{0bd161d8-c89c-4463-bfc3-fdef70c44154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\wrapper">
+      <UniqueIdentifier>{6142a070-bd55-4c3c-a643-d732c8c39450}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\wrapper\GUIConsole.cpp">
+      <Filter>Classes\wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\wrapper\libHashTable.cpp">
+      <Filter>Classes\wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\wrapper\toV8lib.cpp">
+      <Filter>Classes\wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\wrapper\jacos2dx_wrap.cpp">
+      <Filter>Classes\wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extlib\JacosDevScene.cpp">
+      <Filter>Classes\extlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extlib\CCPhysicNodes.cpp">
+      <Filter>Classes\extlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\extlib\GLES-Render.cpp">
+      <Filter>Classes\extlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\wrapper\manual_wrap.cpp">
+      <Filter>Classes\wrapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\wrapper\GUIConsole.h">
+      <Filter>Classes\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\wrapper\libHashTable.h">
+      <Filter>Classes\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\wrapper\toV8lib.h">
+      <Filter>Classes\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\wrapper\v8Cocos2d.h">
+      <Filter>Classes\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\wrapper\libVector.h">
+      <Filter>Classes\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extlib\JacosDevScene.h">
+      <Filter>Classes\extlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extlib\CCPhysicNodes.h">
+      <Filter>Classes\extlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\extlib\GLES-Render.h">
+      <Filter>Classes\extlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\wrapper\manual_wrap.h">
+      <Filter>Classes\wrapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="jacos2d-x.rc" />
+  </ItemGroup>
+</Project>

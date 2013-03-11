@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libCocosDenshion", "CocosDenshion\proj.win32\CocosDenshion.vcxproj", "{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcocos2d", "cocos2dx\proj.win32\cocos2d.vcxproj", "{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jacos2d-x", "Jacos2d-x\win32\HelloWorld.win32.vcxproj", "{9C7FA9F5-B292-450B-B786-08C4901EE0BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noesis_v8", "v8\tools\visual_studio\noesis_v8.vcxproj", "{21E22961-22BF-4493-BD3A-868F93DA5179}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libExtensions", "extensions\proj.win32\libExtensions.vcxproj", "{21B2C324-891F-48EA-AD1A-5AE13DE12E28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libBox2D", "Box2D\proj.win32\Box2D.vcxproj", "{929480E7-23C0-4DF6-8456-096D71547116}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noesis_v8_base_jit", "v8\tools\visual_studio\noesis_v8_base_jit.vcxproj", "{EC8B7909-62AF-470D-A75D-E1D89C837142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Distribute|Win32 = Distribute|Win32
+		Release|Win32 = Release|Win32
+		Remote_Debug|Win32 = Remote_Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Debug|Win32.Build.0 = Debug|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Distribute|Win32.ActiveCfg = Distribute|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Distribute|Win32.Build.0 = Distribute|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Release|Win32.ActiveCfg = Release|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Release|Win32.Build.0 = Release|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Remote_Debug|Win32.ActiveCfg = Remote_Debug|Win32
+		{F8EDD7FA-9A51-4E80-BAEB-860825D2EAC6}.Remote_Debug|Win32.Build.0 = Remote_Debug|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Debug|Win32.Build.0 = Debug|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Distribute|Win32.ActiveCfg = Distribute|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Distribute|Win32.Build.0 = Distribute|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Release|Win32.ActiveCfg = Release|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Release|Win32.Build.0 = Release|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Remote_Debug|Win32.ActiveCfg = Remote_Debug|Win32
+		{98A51BA8-FC3A-415B-AC8F-8C7BD464E93E}.Remote_Debug|Win32.Build.0 = Remote_Debug|Win32
+		{9C7FA9F5-B292-450B-B786-08C4901EE0BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C7FA9F5-B292-450B-B786-08C4901EE0BE}.Debug|Win32.Build.0 = Debug|Win32
+		{9C7FA9F5-B292-450B-B786-08C4901EE0BE}.Distribute|Win32.ActiveCfg = Distribute|Win32
+		{9C7FA9F5-B292-450B-B786-08C4901EE0BE}.Distribute|Win32.Build.0 = Distribute|Win32
+		{9C7FA9F5-B292-450B-B786-08C4901EE0BE}.Release|Win32.ActiveCfg = Release|Win32
+		{9C7FA9F5-B292-450B-B786-08C4901EE0BE}.Release|Win32.Build.0 = Release|Win32
+		{9C7FA9F5-B292-450B-B786-08C4901EE0BE}.Remote_Debug|Win32.ActiveCfg = Remote_Debug|Win32
+		{9C7FA9F5-B292-450B-B786-08C4901EE0BE}.Remote_Debug|Win32.Build.0 = Remote_Debug|Win32
+		{21E22961-22BF-4493-BD3A-868F93DA5179}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21E22961-22BF-4493-BD3A-868F93DA5179}.Debug|Win32.Build.0 = Debug|Win32
+		{21E22961-22BF-4493-BD3A-868F93DA5179}.Distribute|Win32.ActiveCfg = Distribute|Win32
+		{21E22961-22BF-4493-BD3A-868F93DA5179}.Distribute|Win32.Build.0 = Distribute|Win32
+		{21E22961-22BF-4493-BD3A-868F93DA5179}.Release|Win32.ActiveCfg = Release|Win32
+		{21E22961-22BF-4493-BD3A-868F93DA5179}.Release|Win32.Build.0 = Release|Win32
+		{21E22961-22BF-4493-BD3A-868F93DA5179}.Remote_Debug|Win32.ActiveCfg = Remote_Debug|Win32
+		{21E22961-22BF-4493-BD3A-868F93DA5179}.Remote_Debug|Win32.Build.0 = Remote_Debug|Win32
+		{21B2C324-891F-48EA-AD1A-5AE13DE12E28}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21B2C324-891F-48EA-AD1A-5AE13DE12E28}.Debug|Win32.Build.0 = Debug|Win32
+		{21B2C324-891F-48EA-AD1A-5AE13DE12E28}.Distribute|Win32.ActiveCfg = Distribute|Win32
+		{21B2C324-891F-48EA-AD1A-5AE13DE12E28}.Distribute|Win32.Build.0 = Distribute|Win32
+		{21B2C324-891F-48EA-AD1A-5AE13DE12E28}.Release|Win32.ActiveCfg = Release|Win32
+		{21B2C324-891F-48EA-AD1A-5AE13DE12E28}.Release|Win32.Build.0 = Release|Win32
+		{21B2C324-891F-48EA-AD1A-5AE13DE12E28}.Remote_Debug|Win32.ActiveCfg = Remote_Debug|Win32
+		{21B2C324-891F-48EA-AD1A-5AE13DE12E28}.Remote_Debug|Win32.Build.0 = Remote_Debug|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Debug|Win32.ActiveCfg = Debug|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Debug|Win32.Build.0 = Debug|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Distribute|Win32.ActiveCfg = Distribute|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Distribute|Win32.Build.0 = Distribute|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Release|Win32.ActiveCfg = Release|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Release|Win32.Build.0 = Release|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Remote_Debug|Win32.ActiveCfg = Remote_Debug|Win32
+		{929480E7-23C0-4DF6-8456-096D71547116}.Remote_Debug|Win32.Build.0 = Remote_Debug|Win32
+		{EC8B7909-62AF-470D-A75D-E1D89C837142}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC8B7909-62AF-470D-A75D-E1D89C837142}.Debug|Win32.Build.0 = Debug|Win32
+		{EC8B7909-62AF-470D-A75D-E1D89C837142}.Distribute|Win32.ActiveCfg = Distribute|Win32
+		{EC8B7909-62AF-470D-A75D-E1D89C837142}.Distribute|Win32.Build.0 = Distribute|Win32
+		{EC8B7909-62AF-470D-A75D-E1D89C837142}.Release|Win32.ActiveCfg = Release|Win32
+		{EC8B7909-62AF-470D-A75D-E1D89C837142}.Release|Win32.Build.0 = Release|Win32
+		{EC8B7909-62AF-470D-A75D-E1D89C837142}.Remote_Debug|Win32.ActiveCfg = Remote_Debug|Win32
+		{EC8B7909-62AF-470D-A75D-E1D89C837142}.Remote_Debug|Win32.Build.0 = Remote_Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
