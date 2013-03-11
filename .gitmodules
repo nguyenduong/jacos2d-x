@@ -1,0 +1,3 @@
+[submodule "src/v8"]
+	path = src/v8
+	url = https://github.com/nguyenduong/V8-iOS.git
