@@ -105,9 +105,6 @@
 		02E998871657E61B00719174 /* jacos.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E9986E1657E61B00719174 /* jacos.png */; };
 		02E998881657E61B00719174 /* yellow_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E9986F1657E61B00719174 /* yellow_edit.png */; };
 		02E9988D1657E63100719174 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 02E998891657E63100719174 /* fonts */; };
-		02E9988E1657E63100719174 /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 02E9988A1657E63100719174 /* ipad */; };
-		02E9988F1657E63100719174 /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = 02E9988B1657E63100719174 /* ipadhd */; };
-		02E998901657E63100719174 /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = 02E9988C1657E63100719174 /* iphone */; };
 		02ED2D7B16E6F74000C63E8C /* jacos2dx.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 02ED2D7916E6F74000C63E8C /* jacos2dx.cfg */; };
 		02ED2D7C16E6F74000C63E8C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 02ED2D7A16E6F74000C63E8C /* logo.png */; };
 		02F03711165937C600F285BA /* libv8-iphone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E996F11657D84200719174 /* libv8-iphone.a */; };
@@ -122,9 +119,6 @@
 		02F6A3E216E9A1ED00A729B5 /* jacos.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E9986E1657E61B00719174 /* jacos.png */; };
 		02F6A3E316E9A1ED00A729B5 /* yellow_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E9986F1657E61B00719174 /* yellow_edit.png */; };
 		02F6A3E416E9A1ED00A729B5 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 02E998891657E63100719174 /* fonts */; };
-		02F6A3E516E9A1ED00A729B5 /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 02E9988A1657E63100719174 /* ipad */; };
-		02F6A3E616E9A1ED00A729B5 /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = 02E9988B1657E63100719174 /* ipadhd */; };
-		02F6A3E716E9A1ED00A729B5 /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = 02E9988C1657E63100719174 /* iphone */; };
 		02F6A3E816E9A1ED00A729B5 /* Jacos2DX-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02F0371716593AB600F285BA /* Jacos2DX-Info.plist */; };
 		02F6A3E916E9A1ED00A729B5 /* hd in Resources */ = {isa = PBXBuildFile; fileRef = 02481DCF16BFB2F700AF2AAC /* hd */; };
 		02F6A3EB16E9A1ED00A729B5 /* jacos2dx.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 02ED2D7916E6F74000C63E8C /* jacos2dx.cfg */; };
@@ -253,6 +247,9 @@
 		02F6A46A16E9A1ED00A729B5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF492B6912891AC600A09262 /* libz.dylib */; };
 		02F6A46B16E9A1ED00A729B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF137426128A8E4600D9F789 /* QuartzCore.framework */; };
 		02F6AD1D16ED81410043B6EA /* jacos2dx_entry in Resources */ = {isa = PBXBuildFile; fileRef = 02F6AD1C16ED81410043B6EA /* jacos2dx_entry */; };
+		02F804A616EE2FA600912E04 /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 02F804A316EE2FA600912E04 /* ipad */; };
+		02F804A716EE2FA600912E04 /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = 02F804A416EE2FA600912E04 /* ipadhd */; };
+		02F804A816EE2FA600912E04 /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = 02F804A516EE2FA600912E04 /* iphone */; };
 		02FD286816AF94050023DC39 /* CCPhysicsDebugNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FD286416AF94050023DC39 /* CCPhysicsDebugNode.cpp */; };
 		02FD286916AF94050023DC39 /* CCPhysicsSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FD286616AF94050023DC39 /* CCPhysicsSprite.cpp */; };
 		02FD287816AF949C0023DC39 /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FD287716AF949C0023DC39 /* b2CollideEdge.cpp */; };
@@ -572,9 +569,6 @@
 		02E9986E1657E61B00719174 /* jacos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jacos.png; sourceTree = "<group>"; };
 		02E9986F1657E61B00719174 /* yellow_edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_edit.png; sourceTree = "<group>"; };
 		02E998891657E63100719174 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
-		02E9988A1657E63100719174 /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipad; sourceTree = "<group>"; };
-		02E9988B1657E63100719174 /* ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipadhd; sourceTree = "<group>"; };
-		02E9988C1657E63100719174 /* iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iphone; sourceTree = "<group>"; };
 		02ED2D7916E6F74000C63E8C /* jacos2dx.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jacos2dx.cfg; sourceTree = "<group>"; };
 		02ED2D7A16E6F74000C63E8C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		02F0371616593AB600F285BA /* Jacos2DX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jacos2DX_Prefix.pch; sourceTree = "<group>"; };
@@ -582,6 +576,9 @@
 		02F6A46F16E9A1ED00A729B5 /* jacos2dx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jacos2dx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F6A47116E9A1EE00A729B5 /* Jacos2DX copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Jacos2DX copy-Info.plist"; path = "/Users/thaiduong/development/jacos2dx/src/branches/jacos2dx_0.2/Jacos2d-x/proj.ios/Jacos2DX copy-Info.plist"; sourceTree = "<absolute>"; };
 		02F6AD1C16ED81410043B6EA /* jacos2dx_entry */ = {isa = PBXFileReference; lastKnownFileType = folder; path = jacos2dx_entry; sourceTree = "<group>"; };
+		02F804A316EE2FA600912E04 /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipad; sourceTree = "<group>"; };
+		02F804A416EE2FA600912E04 /* ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipadhd; sourceTree = "<group>"; };
+		02F804A516EE2FA600912E04 /* iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iphone; sourceTree = "<group>"; };
 		02FD286416AF94050023DC39 /* CCPhysicsDebugNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCPhysicsDebugNode.cpp; sourceTree = "<group>"; };
 		02FD286516AF94050023DC39 /* CCPhysicsDebugNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPhysicsDebugNode.h; sourceTree = "<group>"; };
 		02FD286616AF94050023DC39 /* CCPhysicsSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCPhysicsSprite.cpp; sourceTree = "<group>"; };
@@ -1160,14 +1157,14 @@
 		784521C214EBA449009D533B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				02F804A316EE2FA600912E04 /* ipad */,
+				02F804A416EE2FA600912E04 /* ipadhd */,
+				02F804A516EE2FA600912E04 /* iphone */,
 				02F6AD1C16ED81410043B6EA /* jacos2dx_entry */,
 				02ED2D7916E6F74000C63E8C /* jacos2dx.cfg */,
 				02ED2D7A16E6F74000C63E8C /* logo.png */,
 				02481DCF16BFB2F700AF2AAC /* hd */,
 				02E998891657E63100719174 /* fonts */,
-				02E9988A1657E63100719174 /* ipad */,
-				02E9988B1657E63100719174 /* ipadhd */,
-				02E9988C1657E63100719174 /* iphone */,
 				02E9986E1657E61B00719174 /* jacos.png */,
 				02E9986F1657E61B00719174 /* yellow_edit.png */,
 				D4EF94ED15BD319D00D803EB /* Icon-144.png */,
@@ -1367,9 +1364,6 @@
 				02F6A3E216E9A1ED00A729B5 /* jacos.png in Resources */,
 				02F6A3E316E9A1ED00A729B5 /* yellow_edit.png in Resources */,
 				02F6A3E416E9A1ED00A729B5 /* fonts in Resources */,
-				02F6A3E516E9A1ED00A729B5 /* ipad in Resources */,
-				02F6A3E616E9A1ED00A729B5 /* ipadhd in Resources */,
-				02F6A3E716E9A1ED00A729B5 /* iphone in Resources */,
 				02F6A3E816E9A1ED00A729B5 /* Jacos2DX-Info.plist in Resources */,
 				02F6A3E916E9A1ED00A729B5 /* hd in Resources */,
 				02F6A3EB16E9A1ED00A729B5 /* jacos2dx.cfg in Resources */,
@@ -1391,14 +1385,14 @@
 				02E998871657E61B00719174 /* jacos.png in Resources */,
 				02E998881657E61B00719174 /* yellow_edit.png in Resources */,
 				02E9988D1657E63100719174 /* fonts in Resources */,
-				02E9988E1657E63100719174 /* ipad in Resources */,
-				02E9988F1657E63100719174 /* ipadhd in Resources */,
-				02E998901657E63100719174 /* iphone in Resources */,
 				02F0371816593AB600F285BA /* Jacos2DX-Info.plist in Resources */,
 				02481DD016BFB2F700AF2AAC /* hd in Resources */,
 				02ED2D7B16E6F74000C63E8C /* jacos2dx.cfg in Resources */,
 				02ED2D7C16E6F74000C63E8C /* logo.png in Resources */,
 				02F6AD1D16ED81410043B6EA /* jacos2dx_entry in Resources */,
+				02F804A616EE2FA600912E04 /* ipad in Resources */,
+				02F804A716EE2FA600912E04 /* ipadhd in Resources */,
+				02F804A816EE2FA600912E04 /* iphone in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
