@@ -1,0 +1,24 @@
+JACOS2D-X (0.8.288)
+Setup guide
+
+1. Setup easy php or any web server application.
+2. Make sure your webserver work well.
+3. Install build under "builds" folder to device.
+4. Extract example files to www folder
+
+5. launch jacos2dx. Input the url
+   Ex: http://192.168.1.200/helloworld.js
+       http://192.168.1.200/angryjas/main.js 
+	   http://192.168.1.200/ccdrag/test.js 
+	   http://192.168.1.200/samples/scene_trans_test.js 
+6. touch Reset to start
+
+contact: Thai-Duong Nguyen
+         nguyen.duong@jacos2d-x.org
+		 mobile: 0965 233 668
+		 
+Special thanks: Thu-May Nguyen (Artist)                
+                cocos2d-x.org
+				cocosbuilder.com
+				Google V8 JavaScript Engine
+				
