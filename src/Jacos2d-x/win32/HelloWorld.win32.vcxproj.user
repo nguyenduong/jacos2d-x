@@ -8,5 +8,7 @@
     <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Distribute|Win32'">$(ProjectDir)..\Resources</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Distribute|Win32'">WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Remote_Debug|Win32'">$(ProjectDir)..\Resources</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor Condition="'$(Configuration)|$(Platform)'=='Remote_Debug|Win32'">WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
